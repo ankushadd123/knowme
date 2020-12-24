@@ -1,0 +1,108 @@
+/* Element selector */
+
+a {
+  color: #045762
+}
+h1 {
+  font-family: 'Langar', cursive;
+  margin-top: 0px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #3fa648
+}
+
+td {
+  border: 3px solid;
+}
+
+/* Custom selector */
+.intro-container {
+  background-color: #daf1dc;
+  padding-top: 60px;
+}
+
+.skill-container {
+  padding-top: 90px;
+  background-color: #edf8ed;
+}
+
+.contact-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background-color: #a3dca7;
+}
+
+.mountain {
+  padding-top: 150px;
+}
+
+.sun {
+  position: absolute;
+  right: 60px;
+  top: 52px;
+  width: 300px;
+}
+
+.my-pic {
+  width: 140px;
+}
+
+
+
+.who-am-i {
+  display: inline-block;
+      width: 30%;
+line-height: 150%;
+}
+
+.skill-table {
+  display: inline-block;
+}
+
+.contact-link {
+  margin-right: 30px;
+}
+
+/* Id selector */
+
+#invite {
+  padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+#java-pic {
+  height: 95px;
+  width: 140px;
+}
+
+#spring-pic {
+  height: 95px;
+  width: 140px;
+}
+
+#db-pic {
+  height: 95px;
+  width: 140px;
+}
+
+#rest-pic {
+  height: 95px;
+  width: 140px;
+}
+
+#angular-pic {
+  height: 95px;
+  width: 140px;
+}
