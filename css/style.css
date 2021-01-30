@@ -14,6 +14,10 @@ hr {
   opacity: .05;
 }
 
+body {
+  background-color: #a5e2f3;;
+}
+
 
 /* id selectors */
 
@@ -180,8 +184,8 @@ hr {
   }
 
   #footer {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
   }
 
   #sun {
