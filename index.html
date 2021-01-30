@@ -4,63 +4,66 @@
 <head>
   <meta charset="utf-8">
   <title>Ankush K.</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
+
+ <!-- font -->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Code+Pro:ital@1&family=Yusei+Magic&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <img class="sun" src="images/sun.png" alt="sun-img">
-  <div class="intro-container">
-    <h1>Lorel Ipsum</h1>
-    <h3>Software Programmer</h3>
-    <img class="mountain" src="images/mountain1.png" alt="mountain-img">
-  </div>
-  <div class="skill-container">
-    <img class="my-pic" src="images/my-pic.png" alt="my-pic">
-    <h2>Hi</h2>
-    <h3 class="who-am-i">I'm a web designer / developer based in Toronto, Canada. I have a passion for web design and love to create for web and mobile devices.</h3>
-    <h2>What can I do.</h2>
 
-    <table class="skill-table">
-      <tr>
-        <td>Skill</td>
-        <td>Rating</td>
-      </tr>
-      <tr>
-        <td><img id="java-pic" src="images/java.png" alt="java-pic"></td>
-        <td>******</td>
-      </tr>
-      <tr>
-          <td>****</td>
-        <td><img id="spring-pic" src="images/spring.png" alt="spring-pic"></td>
+    <div class="container-fluid">
 
-      </tr>
-      <tr>
-        <td><img id="db-pic" src="images/db.png" alt="db-pic"></td>
-        <td>****</td>
-      </tr>
-      <tr>
-          <td>****</td>
-        <td><img id="rest-pic" src="images/rest-api.jpg" alt="rest-pic"></td>
+        <div class="row" id="intro">
+          <img src="images/sun.png" alt="sun" id="sun">
+          <h3 id="name">Ankush Kumar</h3>
+          <h3 id="who">Software Developer</h3>
+          <img src="images/dev9.gif" alt="" id="dev-img">
+        </div>
 
-      </tr>
-      <tr>
-        <td><img id="angular-pic" src="images/angular.png" alt="angular-pic"></td>
-        <td>*****</td>
-      </tr>
-    </table>
+        <div id="intro-breaker"><hr class="intro-breaker-b"></div>
 
-    <h2>I can help</h2>
-    <h3>Currently available for freelance work</h3>
-    <h3 id="invite">We can have a quick chat.</h3>
-  </div>
-  <div class="contact-container">
-    <a class="contact-link" href="#">My Linked profile</a>
-    <a class="contact-link" href="#">Stack overflow account</a>
-    <a href="#">Github page</a>
-  </div>
+        <div id="skill">
+          
+          <h4 id="skill-heading"> My skills </h4>
+          <div class="row" id="skill1">
+            <div class="col-3 skill-img-holder"><img id="java-pic" class="skill-pic" src="images/java.png" alt="java-pic"></div>
+            <div class="col-3 skill-img-holder"><img id="spring-pic" class="skill-pic" src="images/spring.png" alt="spring-pic"></div>
+            <div class="col-3 skill-img-holder"><img id="db-pic" class="skill-pic" src="images/db.png" alt="db-pic"></div>
+            <div class="col-3 skill-img-holder"><img id="rest-pic" class="skill-pic" src="images/rest-api.jpg" alt="rest-pic"></div>
+          </div>
+          <div class="row" id="skill2">
+            <div class="col-6 skill-img-holder"><img id="angular-pic" class="skill-pic" src="images/angular.png" alt="angular-pic"></div>
+            <div class="col-6 skill-img-holder"><img id="w3-pic" class="skill-pic" src="images/w3.png" alt="w3-pic"></div>
+          </div>
+        </div>
+        
+        <div id="skill-breaker"><hr class="skill-breaker-b"></div>
+
+        <div class="row" id="available">
+          <h6>I can help.</h6>
+          <h6>If you need help, if you have an idea, let's talk.</h6>
+          <h6>ankushadd123@gmail.com</h6>
+        </div>
+
+        <div id="footer-breaker"><hr class="footer-breaker-b"></div>
+        
+        <div class="row" id="footer">
+          <div class="col-4">
+            <a href="#" class="social-link">My Linked profile</a>
+          </div>
+          <div class="col-4">
+                <a href="#" class="social-link">Stack overflow account</a>
+          </div>
+          <div class="col-4">
+            <a href="#" class="social-link">Github page</a>
+          </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -1,108 +1,167 @@
-/* Element selector */
+/* components */
 
-a {
-  color: #045762
-}
-h1 {
-  font-family: 'Langar', cursive;
-  margin-top: 0px;
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-h2 {
-  margin-top: 50px;
+.container-fluid {
+  padding: 0;
 }
 
-h3 {
-  margin: 0;
+hr {
+  margin: 0 0rem; 
+  opacity: .05;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
+
+/* id selectors */
+
+#intro {
   text-align: center;
-  color: #3fa648
+  background-color: #e8f8fc;
+  font-family: 'Yusei Magic', sans-serif;
+  padding-top: 10rem;
+  color: #1db7e2;
 }
 
-td {
-  border: 3px solid;
-}
-
-/* Custom selector */
-.intro-container {
-  background-color: #daf1dc;
-  padding-top: 60px;
-}
-
-.skill-container {
-  padding-top: 90px;
-  background-color: #edf8ed;
-}
-
-.contact-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-    background-color: #a3dca7;
-}
-
-.mountain {
-  padding-top: 150px;
-}
-
-.sun {
+#sun {
+  width: 8rem;
   position: absolute;
-  right: 60px;
-  top: 52px;
-  width: 300px;
+  left: 5rem;
+  top: 2rem;
 }
 
-.my-pic {
-  width: 140px;
+#who {
+  /* position: absolute; */
 }
 
-
-
-.who-am-i {
-  display: inline-block;
-      width: 30%;
-line-height: 150%;
+#name {
+  /* position: absolute; */
 }
 
-.skill-table {
-  display: inline-block;
+#skill {
+  text-align: center;
+  background-color: #d2f1f9;
+  color: #1db7e2;
+  /* font-family: 'Source Code Pro', monospace; */
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Yusei Magic', sans-serif;
+  padding-top: 2rem;
+    padding-bottom: 1.5rem;
+
 }
 
-.contact-link {
-  margin-right: 30px;
+#available {
+  background-color: #bbe9f6;
+  padding-top: 2rem;
+    padding-bottom: 1.8rem;
+    text-align: center;
+    color: #1db7e2;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
-/* Id selector */
+#footer {
+  background-color: #a5e2f3;
+  padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
 
-#invite {
-  padding-bottom: 50px;
-    padding-top: 60px;
+#skill-heading {
+  text-decoration: underline;
+  white-space: pre-wrap;
+}
+
+#dev-img {
+  margin: 0 auto;
+  width: 32rem;
 }
 
 #java-pic {
-  height: 95px;
-  width: 140px;
-}
-
-#spring-pic {
-  height: 95px;
-  width: 140px;
-}
-
-#db-pic {
-  height: 95px;
-  width: 140px;
+  width: 4rem;
+  height: 4rem;
 }
 
 #rest-pic {
-  height: 95px;
-  width: 140px;
+  width: 5rem;
+  height: 5rem;
+}
+
+#db-pic {
+  width: 7rem;
+  height: 6rem;
+}
+
+#spring-pic {
+  width: 11rem;
+    height: 6rem;
 }
 
 #angular-pic {
-  height: 95px;
-  width: 140px;
+  width: 7rem;
+}
+
+#w3-pic {
+  width: 7rem;
+}
+
+#skill1 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+#skill2 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+#intro-breaker {
+  background-color: #d2f1f9;
+}
+
+#skill-breaker {
+  background-color: #bbe9f6;
+}
+
+#footer-breaker {
+  background-color: #a5e2f3;
+}
+
+/* class selectors */
+
+
+.skill-name {
+  display: inline-block;
+  margin-right: 6rem;
+  margin-top: 1.3rem;
+}
+
+.skill-name-holder {
+  text-align: center;
+}
+
+.skill-img-holder {
+  text-align: center;
+}
+
+.social-link {
+  color: #1793b5;
+    font-size: 1rem;
+}
+
+.intro-breaker-b {
+  background-color: transparent;
+  border-top: 3px #1db7e2 groove;
+}
+
+.skill-breaker-b {
+  background-color: transparent;
+  border-top: 3px #1db7e2 groove;
+}
+
+.footer-breaker-b {
+  background-color: transparent;
+  border-top: 3px #1aa5cb groove;
 }
