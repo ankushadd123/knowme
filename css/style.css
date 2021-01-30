@@ -165,3 +165,91 @@ hr {
   background-color: transparent;
   border-top: 3px #1aa5cb groove;
 }
+
+
+/* mobile */
+
+@media only screen and (min-width: 600px) {
+  #intro {
+    padding-top: 14rem;
+  }
+
+  #skill {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  #footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  #sun {
+    top: 5.5rem;
+    width: 10rem;
+  }
+
+  #skill1 {
+    margin-top: 4.5rem;
+  }
+
+  #available {
+    padding-top: 4.5rem;
+      padding-bottom: 4rem;
+  }
+
+  #name {
+    font-size: 3rem;
+  }
+
+  #who {
+    font-size: 3rem;
+  }
+
+  #dev-img {
+    width: 39rem;
+}
+
+.avail-text {
+  font-size: 1.5rem;
+}
+
+#skill-heading {
+  font-size: 1.85rem;
+}
+
+.social-link {
+  color: #1793b5;
+    font-size: 1.5rem;
+}
+
+#java-pic {
+  width: 5rem;
+  height: 5rem;
+}
+
+#rest-pic {
+  width: 6rem;
+  height: 6rem;
+}
+
+#db-pic {
+  width: 8rem;
+  height: 7rem;
+}
+
+#spring-pic {
+  width: 12rem;
+    height: 7rem;
+}
+
+#angular-pic {
+  width: 8rem;
+}
+
+#w3-pic {
+  width: 8rem;
+}
+
+
+}
